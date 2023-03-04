@@ -29,3 +29,9 @@ client.on('messageCreate', message => {
 
 //Discordへの接続
 client.login(token);
+
+const http = require("http");
+http.createServer(function(req,res){
+  res.end("Hello, World!);
+  }
+).listen(3000);
