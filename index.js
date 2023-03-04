@@ -1,2 +1,2 @@
 const fs = require("fs")
-fs.writeFileSync("test.json","テスト")
+fs.writeFileSync("test.txt","テスト")
